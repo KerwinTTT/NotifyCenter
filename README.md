@@ -274,7 +274,7 @@ API Key 是 NotifyCenter 的入口，每个 API Key 关联：
 
 ## � 更新日志
 
-###v0.4 (最新)
+### v0.4 (最新)
 - ✅ 技术栈变更： Python (FastAPI) 改为 Go (Gin)，Jinja2 → Pongo2，SQLAlchemy → GORM，单一二进制部署替代 Python 运行时依赖。
 - ✅ 部署与性能提升： 单一二进制文件、更小的 Docker 镜像、毫秒级启动、更低内存占用。
 - ✅ 功能完整性： 100% 兼容原 Python 版本，包括多渠道通知、Emby 模板系统、API Key 管理、路由管理、Web 管理后台、日志系统，数据库文件可直接迁移。
